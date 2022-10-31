@@ -4,5 +4,9 @@ func log_value(y: felt) {
 
    // This exercise has no tests to check against.
 
+   %{
+       print("This is a hint printed by python's print() function.")
+   %}
+
     return ();
 }
