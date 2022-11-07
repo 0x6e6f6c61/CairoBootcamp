@@ -9,6 +9,7 @@ func add_one(y: felt) -> (val: felt) {
 
 func add_one_U256{range_check_ptr}(y: Uint256) -> (val: Uint256) {
     let (num1high, num1low) = split_felt(1);
+    %{ print(f"{ids.num1high} high {ids.num1low} low   ")%}
     let num1 : Uint256 = Uint256(low=num1low,high=num1high);
     let (res,_) = uint256_add(y,num1);
     return (val=res,);

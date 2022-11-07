@@ -5,4 +5,7 @@ protostar_version = "0.6.0"
 libs_path = "."
 
 ["protostar.contracts"]
-storage = "./exercises/contracts/storage/storage.cairo"
+storage = ["./exercises/contracts/storage/ownableStorage.cairo"]
+
+["protostar.build"]
+cairo-path = ["./cairo_contracts/src"]
