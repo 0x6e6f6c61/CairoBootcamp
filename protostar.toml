@@ -7,5 +7,5 @@ libs_path = "."
 ["protostar.contracts"]
 storage = ["./exercises/contracts/storage/ownableStorage.cairo"]
 
-["protostar.build"]
-cairo-path = ["./cairo_contracts/src"]
+#["protostar.build"]
+#cairo-path = ["./cairo_contracts/src"]
